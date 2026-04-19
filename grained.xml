@@ -5,7 +5,7 @@
   <Registry>https://github.com/Revise0592/grained/pkgs/container/grained</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
-  <Support>https://github.com/Revise0592/grained/issues</Support>
+  <Support>https://forums.unraid.net/topic/198330-support-grained-docker-application/#comment-1618851</Support>
   <Project>https://github.com/Revise0592/grained</Project>
   <Overview>Self-hosted film photography archive. Upload rolls from lab scan zip files, organise by film stock, format, and tags, browse in a full-screen lightbox, rotate and annotate frames, and share your archive with others.[br][br]Supports JPEG, PNG, TIFF, HEIC, and WebP. Thumbnails are generated automatically on upload. Optional password protection.</Overview>
   <Category>MediaApp:Photos</Category>
