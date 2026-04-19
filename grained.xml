@@ -10,8 +10,8 @@
   <Overview>Self-hosted film photography archive. Upload rolls from lab scan zip files, organise by film stock, format, and tags, browse in a full-screen lightbox, rotate and annotate frames, and share your archive with others.[br][br]Supports JPEG, PNG, TIFF, HEIC, and WebP. Thumbnails are generated automatically on upload. Optional password protection.</Overview>
   <Category>MediaApp:Photos</Category>
   <WebUI>http://[IP]:[PORT:3000]/</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/Revise0592/grained/main/unraid/grained.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/Revise0592/grained/main/unraid/icon.svg</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/Revise0592/unraid-apps/refs/heads/main/grained.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/Revise0592/unraid-apps/refs/heads/main/icon.svg</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
