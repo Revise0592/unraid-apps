@@ -2,17 +2,18 @@
 <Container version="2">
   <Name>Carvey</Name>
   <Repository>ghcr.io/revise0592/carvey:latest</Repository>
+  <Registry>ghcr.io/revise0592/carvey</Registry>
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/198330-support-grained-docker-application/</Support>
+  <Support>https://forums.unraid.net/topic/198330-support-larvs-repo-docker-apps-support-thread</Support>
   <Project>https://github.com/Revise0592/Carvey</Project>
   <Overview>Carvey is a self-hosted, local-first car maintenance tracker for managing vehicles, repairs, maintenance, MOTs, reminders and costs.</Overview>
   <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/Revise0592/unraid-apps/main/carvey.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/Revise0592/Carvey/refs/heads/main/public/icons/png/carvey-icon-dark-1024.png</Icon>
-  <DateInstalled>1777930409</DateInstalled>
   <Config Name="App data" Target="/app/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/carvey</Config>
-  <Config Name="Host Port 1" Target="3000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3050</Config>
+  <Config Name="Host Port 1" Target="3000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
   <Config Name="TZ" Target="TZ" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Europe/London</Config>
 </Container>
