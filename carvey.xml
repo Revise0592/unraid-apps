@@ -2,7 +2,6 @@
 <Container version="2">
   <Name>Carvey</Name>
   <Repository>ghcr.io/revise0592/carvey:latest</Repository>
-  <Registry/>
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
@@ -11,7 +10,6 @@
   <Overview>Carvey is a self-hosted, local-first car maintenance tracker for managing vehicles, repairs, maintenance, MOTs, reminders and costs.</Overview>
   <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
-  <TemplateURL><TemplateURL/>
   <Icon>https://raw.githubusercontent.com/Revise0592/Carvey/refs/heads/main/public/icons/png/carvey-icon-dark-1024.png</Icon>
   <DateInstalled>1777930409</DateInstalled>
   <Config Name="App data" Target="/app/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/carvey</Config>
