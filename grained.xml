@@ -6,7 +6,7 @@
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/198330-support-grained-docker-application/</Support>
+  <Support>https://forums.unraid.net/topic/198330-support-larvs-repo-docker-apps-support-thread</Support>
   <Project>https://github.com/Revise0592/grained</Project>
   <Overview>Self-hosted archive for film photography. Import lab scan zips, log metadata, browse in a lightbox, annotate frames.</Overview>
   <Category>MediaApp:Photos</Category>
