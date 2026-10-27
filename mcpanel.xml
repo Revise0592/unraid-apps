@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>McPanel</Name>
+  <Repository>ghcr.io/revise0592/mcpanel:latest</Repository>
+  <Registry>ghcr.io/revise0592/mcpanel</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/198330-support-larvs-repo-docker-apps-support-thread</Support>
+  <Project>https://github.com/Revise0592/McPanel</Project>
+  <Overview>McPanel is a simple, self-hosted web panel for running Minecraft servers (Paper, Vanilla, Fabric and Bedrock). It downloads the server software and the right Java version for you, with a live console, backups, player management and Modrinth plugin/mod search. On first launch, get the setup code from the container logs.</Overview>
+  <Category>GameServers: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/Revise0592/unraid-apps/main/mcpanel.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/Revise0592/McPanel/main/internal/web/static/brand/favicon.png</Icon>
+  <ExtraParams>--init --stop-timeout=120 --user 99:100</ExtraParams>
+  <Config Name="App data" Target="/data" Default="/mnt/user/appdata/mcpanel" Mode="rw" Description="Servers, backups, Java runtimes and settings" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/mcpanel</Config>
+  <Config Name="WebUI Port" Target="8080" Default="8080" Mode="tcp" Description="Panel web interface" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+  <Config Name="Java Server Ports" Target="25565-25575" Default="25565-25575" Mode="tcp" Description="Java edition servers" Type="Port" Display="always" Required="false" Mask="false">25565-25575</Config>
+  <Config Name="Bedrock Server Ports" Target="19132-19141" Default="19132-19141" Mode="udp" Description="Bedrock edition servers" Type="Port" Display="always" Required="false" Mask="false">19132-19141</Config>
+  <Config Name="TZ" Target="TZ" Default="Europe/London" Mode="" Description="Timezone" Type="Variable" Display="always" Required="false" Mask="false">Europe/London</Config>
+</Container>
