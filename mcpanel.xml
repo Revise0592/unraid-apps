@@ -10,19 +10,19 @@
   <Support>https://forums.unraid.net/topic/198330-support-larvs-repo-docker-apps-support-thread</Support>
   <Project>https://github.com/Revise0592/McPanel</Project>
   <Overview>
-      McPanel runs your Minecraft servers at home: Paper, Vanilla, Fabric (Java) and Bedrock, from one simple web panel. It downloads the server software and the right Java version for you.
+    McPanel runs your Minecraft servers at home: Paper, Vanilla, Fabric (Java) and Bedrock, from one simple web panel. It downloads the server software and the right Java version for you.
 
-      - Add, start, stop and restart servers, with a live console and command history
-      - Players page: who's online, kick, operators, bans, the whitelist, and an Allow button for anyone who was turned away
-      - Settings as plain labelled controls, plus a raw server.properties editor
-      - Search Modrinth for plugins and mods that match your exact version
-      - Import a server or world from another host as a zip
-      - Scheduled backups made while the server keeps running, with one-click restore
-      - Crash restarts, version changes that keep your worlds, and two-factor sign-in
+    - Add, start, stop and restart servers, with a live console and command history
+    - Players page: who's online, kick, operators, bans, the whitelist, and an Allow button for anyone who was turned away
+    - Settings as plain labelled controls, plus a raw server.properties editor
+    - Search Modrinth for plugins and mods that match your exact version
+    - Import a server or world from another host as a zip
+    - Scheduled backups made while the server keeps running, with one-click restore
+    - Crash restarts, version changes that keep your worlds, and two-factor sign-in
 
-      PORTS: new servers pick their ports automatically from 25565-25575 (Java, TCP) and 19132-19141 (Bedrock, UDP). Widen these ranges if you run more servers. To play with friends outside your network, forward the server's port on your router.
+    PORTS: new servers pick their ports automatically from 25565-25575 (Java, TCP) and 19132-19141 (Bedrock, UDP). Widen these ranges if you run more servers. To play with friends outside your network, forward the server's port on your router. Bedrock players joining a Paper server (through Geyser) use one of the 19132-19141 ports over both UDP and TCP, so forward both on your router.
 
-      After it starts, open the WebUI and choose your password. The setup code is in the container's log.
+    After it starts, open the WebUI and choose your password. The setup code is in the container's log.
   </Overview>
   <Category>GameServers: Tools:System</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
