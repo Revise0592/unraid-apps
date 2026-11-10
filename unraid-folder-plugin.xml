@@ -1,0 +1,19 @@
+<Plugin>
+  <!-- Delete this file if your repository does not ship plugins. -->
+  <Name>Simple Docker Folders</Name>
+  <PluginURL>https://raw.githubusercontent.com/Revise0592/unraid-docker-folders/main/simple.docker.folders.plg</PluginURL>
+  <Support>https://forums.unraid.net/topic/198330-support-larvs-repo-docker-apps-support-thread</Support>
+  <Project>https://github.com/Revise0592/unraid-docker-folders</Project>
+  <Overview>
+      An Unraid plugin that groups containers on the Docker tab into collapsible folders.
+
+      Click a folder row to expand or collapse it.
+      Each folder row has buttons to start, stop or restart all of its containers, and to edit the folder.
+      A folder can have a custom image (it is resized to 128×128 PNG in the browser).
+      Folders sit at the position of their first container, so Unraid's own drag-sort order still applies.
+      There are no settings pages. A docker container folder plugin should not have 20598324095724052094+ options.
+      I just want to group containers to tidy up. If thats also what you want, then this plugin is for you.
+  </Overview>
+  <Icon>https://raw.githubusercontent.com/Revise0592/unraid-docker-folders/main/src/usr/local/emhttp/plugins/simple.docker.folders/images/folder-docker.png</Icon>
+  <Category>Tools:Utilities</Category>
+</Plugin>
